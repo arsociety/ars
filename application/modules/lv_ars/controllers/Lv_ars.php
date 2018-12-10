@@ -7,11 +7,14 @@ class Lv_ars extends CI_Controller
 	function __construct()
 	{
 		parent::__construct();
+		$this->load->model("artikel");
 	}
 
 	public function index()
 	{
-		$this->load->view('home/view_main.php');
+		$data["artikel"] = $this->artikel->getAll();
+		$this->load->view('home/view_main.php', $data);
+		
 	}
 
 

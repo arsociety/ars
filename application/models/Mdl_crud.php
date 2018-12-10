@@ -81,4 +81,4 @@ class Mdl_crud extends CI_Model
 	}
 }
 
- ?>
+?>
