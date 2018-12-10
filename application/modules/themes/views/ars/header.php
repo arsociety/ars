@@ -92,7 +92,7 @@
           <!-- Navbar Toolbar Right -->
           <ul class="nav navbar-toolbar navbar-right navbar-toolbar-right">
             <li class="nav-item">
-              <a class="nav-link" href="javascript:void(0)">
+              <a class="nav-link" href="<?php echo base_url('login')?>">
                 <i class="fa fa-sign-in" aria-hidden="true"></i> Masuk
               </a>
             </li>
