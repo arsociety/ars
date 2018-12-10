@@ -1,4 +1,4 @@
-<?php  
+<?php
 defined('BASEPATH') OR exit('No direct script access allowed');
 
 class Lv_home extends CI_Controller {
@@ -6,16 +6,11 @@ class Lv_home extends CI_Controller {
     {
         parent::__construct();
         //Model arsociety
-    } 
+    }
 
     public function index()
     {
         $this->load->view('view_main');
-    }
-
-    public function order()
-    {
-        $this->load->view('view_order');
     }
 
     public function home()

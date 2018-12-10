@@ -297,7 +297,7 @@
                     </div>
                     <hr class="hr-title-01 hr-icon">
                     <div class="pricing-position">
-                        <div class="col-md-3 col-sm-3 np os-animation" data-os-animation="fadeInUp" data-os-animation-delay="0.4s">
+                        <div class="col-md-4 col-sm-4 np os-animation" data-os-animation="fadeInUp" data-os-animation-delay="0.4s">
                             <div class="pricing-table">
                                 <div class="pricing-table-header">
                                     <h4 class="heading text-info">Portfolio/Blog</h4>
@@ -320,12 +320,12 @@
                                     Free Domain<hr>
                                     <h5>Mulai dari <b>RP. 800.000,-</b></h5>
                                 </p><br>
-                                <a href="<?php echo base_url('order')?>" class="dark-btn">
+                                <a href="<?php echo base_url('personal')?>" class="dark-btn">
                                     <span>Order Now</span>
                                 </a>
                             </div>
                         </div>
-                        <div class="col-md-3 col-sm-3 np os-animation" data-os-animation="fadeInDown" data-os-animation-delay="0.4s">
+                        <div class="col-md-4 col-sm-4 np os-animation" data-os-animation="fadeInDown" data-os-animation-delay="0.4s">
                             <div class="pricing-table">
                                 <div class="pricing-table-header">
                                     <h4 class="heading text-info">Online Store</h4>
@@ -353,27 +353,7 @@
                             </div>
                         </div>
 
-                        <div class="col-md-3 col-sm-3 np os-animation" data-os-animation="fadeInUp" data-os-animation-delay="0.4s">
-                            <div class="pricing-table">
-                                <div class="pricing-table-header">
-                                    <h4 class="heading text-info">Website Custom</h4>
-                                </div>
-                                <p class="pricing-content">
-                                    <h5><b>Custom Website</b></h5>
-                                    <hr>Template Standart/Premium<hr>
-                                    5 Pages Khusus<hr>
-                                    Free Domain<hr>
-                                    Request Fitur<hr>
-                                    Maintenance Service<hr>
-                                    <h5>Mulai dari <b>RP. 2.000.000,-</b></h5>
-                                </p><br>
-                                <a href="<?php echo base_url('order')?>" class="dark-btn">
-                                    <span>Order Now</span>
-                                </a>
-                            </div>
-                        </div>
-
-                        <div class="col-md-3 col-sm-3 np os-animation" data-os-animation="fadeInUp" data-os-animation-delay="0.4s">
+                        <div class="col-md-4 col-sm-4 np os-animation" data-os-animation="fadeInUp" data-os-animation-delay="0.4s">
                             <div class="pricing-table">
                                 <div class="pricing-table-header">
                                     <h4 class="heading text-info">Information System</h4>
@@ -399,9 +379,6 @@
                                 </a>
                             </div>
                         </div>
-
-
-
                     </div>
                 </div>
             </div>
