@@ -49,7 +49,7 @@
                         <span class="icon-bar"></span>
                     </button>
                     <a class="navbar-brand page-scroll" href="#home">
-                        <img height="50" width="50" class="logo" src="<?php echo base_url('public/img/fikri.png')?>" alt="logo">
+                        <img height="50" width="50" class="logo" src="<?php echo base_url('public/home/assets/images/logo-ars.png')?>" alt="logo">
                     </a>
                 </div>
                 <div class="collapse navbar-collapse navbar-ex1-collapse">
