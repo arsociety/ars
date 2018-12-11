@@ -17,6 +17,14 @@ class Artikel extends CI_Model
         return $this->db->get($this->_table)->result();
     }
 
+    public function get_last_3()
+    {
+                    $this->db->order_by('id',"DESC");
+            $query = $this->db->get('artikel', 3);
+                    
+            return $query->result();
+    }
+
     }
 
  ?>
