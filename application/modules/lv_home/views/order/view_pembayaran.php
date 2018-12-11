@@ -39,7 +39,7 @@
         <div id="preloader" class="se-pre-con">
             <div id="status"></div>
         </div>
-        <nav class="navbar navbar-default navbar-blue navbar-fixed-top">
+        <nav class="navbar-page navbar-blue navbar-fixed-top">
             <div class="container">
                 <div class="navbar-header page-scroll">
                     <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-ex1-collapse">
@@ -48,14 +48,14 @@
                         <span class="icon-bar"></span>
                         <span class="icon-bar"></span>
                     </button>
-                    <a class="navbar-brand page-scroll" href="#home">
-                        <img height="50" width="50" class="logo" src="<?php echo base_url('public/img/fikri.png')?>" alt="logo">
+                    <a class="navbar-brand page-scroll" href="<?php echo base_url('lv_home')?>">
+                        <img height="50" width="50" class="logo" src="<?php echo base_url('public/home/assets/images/logo-ars.png')?>" alt="logo">
                     </a>
                 </div>
                 <div class="collapse navbar-collapse navbar-ex1-collapse">
                     <ul class="nav navbar-nav">
                         <li>
-                            <a class="page-scroll" href="<?php echo base_url('lv_')?>">Home</a>
+                            <a class="page-scroll" href="<?php echo base_url('lv_home')?>">Home</a>
                         </li>
                         <li>
                             <a class="page-scroll label label-warning label-sm" href="<?php echo base_url('ars')?>">Coming Soon</a>
@@ -76,12 +76,37 @@
                     <div class="panel">
               	  	  <div class="panel-body">
                         <div class="container-fluid">
-                          <h1>Sayur Kol</h1>
+                          <h1>Sayur Kol - Punxgoaran</h1>
                           <hr>
                           <div class="container text-center">
+                            <b>Intro:</b><br>
+                            Waktu abang pergi ke Siborong-borong <br>
+                            Datang hujan yang amat deras lah <br>
+                            Terkejut abang terheran - heran <br>
+                            Sebab abang belum pernah kesana<br>
+                            Untung datang namboru panjaitan<br>
+                            Martarombo kami di jalan<br>
+                            Diajaknya aku ke rumah dia<br>
+                            Makan daging anjing dengan sayur kol<br><br>
 
+                            <b>Reff:</b><br>
+                            Sayur Kol.. Sayur Kol..<br>
+                            Makan daging anjing dengan sayur kol<br>
+                            Sayur Kol.. Sayur Kol..<br>
+                            Makan daging anjing dengan sayur kol<br><br>
+
+                            <b>Bridge:</b><br>
+                            Untung datang namboru panjaitan<br>
+                            Martarombo kami di jalan<br>
+                            Diajaknya aku ke rumah dia<br>
+                            Makan daging anjing dengan sayur kol<br><br>
+
+                            <b>Reff:</b><br>
+                            Sayur Kol.. Sayur Kol<br>
+                            Makan daging anjing dengan sayur kol<br>
+                            Sayur Kol.. Sayur Kol..<br>
+                            Makan daging anjing dengan sayur kol<br>
                           </div>
-
                         </div>
               	  	  </div>
               	    </div>

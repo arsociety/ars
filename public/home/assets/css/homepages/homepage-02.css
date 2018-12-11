@@ -50,13 +50,13 @@
           transform: translateX(-50%) translateY(-50%);
 }
 video#bgvid {
-  position: absolute; 
-  right: 0; 
+  position: absolute;
+  right: 0;
   bottom: 0;
-  min-width: 100%; 
+  min-width: 100%;
   min-height: 100vh;
-  width: auto; 
-  height: auto; 
+  width: auto;
+  height: auto;
   z-index: -100;
   background: url('../../images/background/01.jpg') no-repeat;
   background-position: center center;
@@ -71,17 +71,17 @@ video#bgvid {
   font-size: 100px;
   font-weight: 700;
   text-transform: uppercase;
-  text-shadow: 0 1px 0 #ccc, 
-               0 2px 0 #c9c9c9, 
-               0 3px 0 #bbb, 
-               0 4px 0 #b9b9b9, 
-               0 5px 0 #aaa, 
-               0 6px 1px rgba(0,0,0,.1), 
-               0 0 5px rgba(0,0,0,.1), 
-               0 1px 3px rgba(0,0,0,.3), 
-               0 3px 5px rgba(0,0,0,.2), 
-               0 5px 10px rgba(0,0,0,.25), 
-               0 10px 10px rgba(0,0,0,.2), 
+  text-shadow: 0 1px 0 #ccc,
+               0 2px 0 #c9c9c9,
+               0 3px 0 #bbb,
+               0 4px 0 #b9b9b9,
+               0 5px 0 #aaa,
+               0 6px 1px rgba(0,0,0,.1),
+               0 0 5px rgba(0,0,0,.1),
+               0 1px 3px rgba(0,0,0,.3),
+               0 3px 5px rgba(0,0,0,.2),
+               0 5px 10px rgba(0,0,0,.25),
+               0 10px 10px rgba(0,0,0,.2),
                0 20px 20px rgba(0,0,0,.15);
 }
 .sub-title {
@@ -269,7 +269,7 @@ video#bgvid {
 }
 /*-----------------------------------------
 05) Milestones
---------------------------------------------------*/ 
+--------------------------------------------------*/
 #milestones {
   -webkit-background-size: cover;
      -moz-background-size: cover;
@@ -314,7 +314,7 @@ video#bgvid {
 }
 /*-----------------------------------------
 06) Screenshots
---------------------------------------------------*/ 
+--------------------------------------------------*/
 .screenshots .owl-item {
   transition: all 200ms cubic-bezier(0.694, 0.0482, 0.335, 1) 0s;
 }
@@ -328,7 +328,7 @@ video#bgvid {
 }
 /*-----------------------------------------
 07) Team
---------------------------------------------------*/ 
+--------------------------------------------------*/
 .owl-carousel .owl-item {
   margin: 10px 0;
 }
@@ -414,7 +414,7 @@ video#bgvid {
 }
 /*-----------------------------------------
 08) Review
---------------------------------------------------*/ 
+--------------------------------------------------*/
 .review {
   background: url('../../images/black-linen-bg.png') repeat;
 }
@@ -471,12 +471,12 @@ video#bgvid {
   margin-top: 20px;
   text-align: center!important;
 }
-.review .owl-carousel .owl-nav .owl-prev, .owl-carousel .owl-nav .owl-next {  
+.review .owl-carousel .owl-nav .owl-prev, .owl-carousel .owl-nav .owl-next {
   display: inline;
   margin: 0 15px;
 }
 .review .owl-prev, .owl-next {
-  color: #40545a; 
+  color: #40545a;
   font-size: 36px;
   -webkit-transition: ease .6s;
      -moz-transition: ease .6s;
@@ -485,11 +485,11 @@ video#bgvid {
           transition: ease .6s;
 }
 .review .owl-prev:hover, .owl-next:hover {
-  color: #19abd6; 
+  color: #19abd6;
 }
 /*-----------------------------------------
 09) Video
---------------------------------------------------*/ 
+--------------------------------------------------*/
 #video {
   -webkit-background-size: cover;
      -moz-background-size: cover;
@@ -561,7 +561,7 @@ video#bgvid {
 }
 /*-----------------------------------------
 10) Pricing Tables
---------------------------------------------------*/ 
+--------------------------------------------------*/
 .pricing-position {
   margin-top: 90px;
 }
@@ -642,7 +642,7 @@ video#bgvid {
   color: #19abd6;
 }
 #accordion .panel-title a:before,
-#accordion .panel-title a.collapsed:before { 
+#accordion .panel-title a.collapsed:before {
   content: "\f068";
   font-family: FontAwesome;
   position: absolute;
@@ -686,7 +686,7 @@ video#bgvid {
 .faq .contact-btn span:hover {
   color: #19abd6;
 }
-.faq .contact .contact-btn:before { 
+.faq .contact .contact-btn:before {
   content: "\f27b";
   font-family: FontAwesome;
   position: absolute;
@@ -787,7 +787,7 @@ video#bgvid {
 }
 /*-----------------------------------------
 12) Download
---------------------------------------------------*/ 
+--------------------------------------------------*/
 #download {
   -webkit-background-size: cover;
      -moz-background-size: cover;
@@ -861,7 +861,7 @@ video#bgvid {
      -moz-box-shadow: 0 0 20px rgba(0, 0, 0, 0.15);
           box-shadow: 0 0 20px rgba(0, 0, 0, 0.15);
   padding: 20px 30px;
-  margin-top: 60px; 
+  margin-top: 60px;
   position: relative;
   z-index: 1;
 }
@@ -876,7 +876,7 @@ video#bgvid {
 }
 .blog .post-content h3 a:hover {
   color: #19abd6;
-} 
+}
 .blog .post-content .author {
   margin-top: 10px;
   color: #19abd6;
@@ -1006,7 +1006,7 @@ ul.social-network li {
   font-size: 16px;
   text-align: center;
   color: #f0f0f0;
-  margin-top: 30px; 
+  margin-top: 10px;
 }
 /*-----------------------------------------
 16) Responsive
@@ -1042,7 +1042,7 @@ ul.social-network li {
     font-size: 38px;
   }
   .hero-content-video {
-    min-width: 100%; 
+    min-width: 100%;
     padding: 10px;
   }
   .about .desc-list {
@@ -1124,13 +1124,13 @@ ul.social-network li {
     padding-left: 10px;
   }
   .hero-content-video {
-    min-width: 100%; 
+    min-width: 100%;
     padding: 10px;
   }
-  .options-box { 
-    margin-bottom: 30px; 
+  .options-box {
+    margin-bottom: 30px;
   }
-  .pricing-table { 
+  .pricing-table {
     margin-bottom: 25px;
   }
   .blog .post-image-left {
@@ -1145,7 +1145,7 @@ ul.social-network li {
 }
 
 .shadow{
-  box-shadow: 0 8px 15px 0 rgba(0, 0, 0, 0.2), 
+  box-shadow: 0 8px 15px 0 rgba(0, 0, 0, 0.2),
               0 10px 25px 0 rgba(0, 0, 0, 0.19);
 }
 
@@ -1255,4 +1255,3 @@ ul.social-network li {
 .contacts-box {
     margin-bottom: 30px;
   }
-

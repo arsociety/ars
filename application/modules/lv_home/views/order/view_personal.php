@@ -39,7 +39,7 @@
         <div id="preloader" class="se-pre-con">
             <div id="status"></div>
         </div>
-        <nav class="navbar navbar-default navbar-blue navbar-fixed-top">
+        <nav class="navbar-page navbar-blue navbar-fixed-top">
             <div class="container">
                 <div class="navbar-header page-scroll">
                     <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-ex1-collapse">
@@ -48,14 +48,14 @@
                         <span class="icon-bar"></span>
                         <span class="icon-bar"></span>
                     </button>
-                    <a class="navbar-brand page-scroll" href="#home">
-                        <img height="50" width="50" class="logo" src="<?php echo base_url('public/img/fikri.png')?>" alt="logo">
+                    <a class="navbar-brand page-scroll" href="<?php echo base_url('lv_home')?>">
+                        <img height="50" width="50" class="logo" src="<?php echo base_url('public/home/assets/images/logo-ars.png')?>" alt="logo">
                     </a>
                 </div>
                 <div class="collapse navbar-collapse navbar-ex1-collapse">
                     <ul class="nav navbar-nav">
                         <li>
-                            <a class="page-scroll" href="<?php echo base_url('lv_')?>">Home</a>
+                            <a class="page-scroll" href="<?php echo base_url('lv_home')?>">Home</a>
                         </li>
                         <li>
                             <a class="page-scroll label label-warning label-sm" href="<?php echo base_url('ars')?>">Coming Soon</a>
@@ -75,7 +75,7 @@
                      <hr class="hr-title-01 hr-icon">
                     <div class="panel">
               	  	  <div class="panel-body">
-                        <div class="container-fluid">
+                        <div class="container">
                           <h1>Portofolio/Blog</h1>
                           <hr><br>
                           <form>
@@ -95,12 +95,13 @@
                             </select> <br><br>
                             Upload Scan KTP:
                             <input type="file" name="pic" accept="image/*">
-
-                            <a href="<?php echo base_url('konfirmasi')?>" class="dark-btn">
-                                <span>Pesen</span>
-                            </a>
-
+                            <div class="container text-center">
+                              <a href="<?php echo base_url('konfirmasi')?>" class="dark-btn">
+                                  <span>Pesan</span>
+                              </a>
+                            </div>
                           </form>
+
                         </div>
               	  	  </div>
               	    </div>
