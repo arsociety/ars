@@ -3,7 +3,7 @@
 	<!-- Page -->
 	<div class="page">
 	  <div class="page-content container-fluid">
-	  
+
 		<!-- Blog Posting -->
 	  	<div class="panel panel-bordered">
 	  	  <div class="panel-heading">
@@ -42,31 +42,7 @@
 	                <img class="cover-image" src="<?php echo base_url('public/material/global/photos/placeholder.png')?>" alt="...">
 	              </div>
 	              <div class="card-block">
-	                <h3 class="card-title">Postingan 2</h3>
-	                <p class="card-text type-link">
-	                  <small>
-	                    By
-	                    <a href="javascript:void(0)">Admin</a>
-	                    <a href="javascript:void(0)">05, 2017</a>
-	                    <a href="javascript:void(0)">
-	                      <span>3</span> Komentar</a>
-	                  </small>
-	                </p>
-	                <p class="card-text" align="justify">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
-	                tempor incididunt ut labore et dolore magna aliqua. </p>
-	              </div>
-	              <div class="card-block text-right">
-	                <button type="button" class="btn btn-primary card-link"><i class="fa fa-globe"></i>&nbsp; Baca artikel</button>
-	              </div>
-	            </div>
-	          </li>
-	          <li class="masonry-item">
-	            <div class="card card-shadow">
-	              <div class="card-header cover">
-	                <img class="cover-image" src="<?php echo base_url('public/material/global/photos/placeholder.png')?>" alt="...">
-	              </div>
-	              <div class="card-block">
-	                <h3 class="card-title">Postingan 3</h3>
+	                <h3 class="card-title">Postingan Contoh</h3>
 	                <p class="card-text type-link">
 	                  <small>
 	                    By
