@@ -23,7 +23,7 @@
 	                  <small>
 	                    By
 	                    <a href="javascript:void(0)"><?php echo $art->penulis ?></a>
-	                    <a href="javascript:void(0)"><?php echo $art->date ?></a>
+	                    <a href="javascript:void(0)"><?php echo $art->tgl_awal ?></a>
 	                    <a href="javascript:void(0)">
 	                      <span>3</span> Komentar</a>
 	                  </small>
