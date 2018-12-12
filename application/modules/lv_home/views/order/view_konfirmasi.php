@@ -78,7 +78,7 @@
                         <div class="container-fluid">
                           <h1>Portofolio/Blog</h1>
                           <hr>
-                          <div class="container text-center">
+                          <div class="container-fluid text-right">
                             <div class="row">
                               <div class="col-md-6 text-left">
                                 <h3>Detail Pemesan</h3>

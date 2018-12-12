@@ -75,33 +75,44 @@
                      <hr class="hr-title-01 hr-icon">
                     <div class="panel">
               	  	  <div class="panel-body">
-                        <div class="container">
+                        <div class="container-fluid text-right">
                           <h1>Portofolio/Blog</h1>
                           <hr><br>
                           <form>
-                            First name : <input type="text" name="firstname"> Last name : <input type="text" name="lastname"> <br> <br>
-                            Phone Number : <input type="text" name="phone"> <br><br>
-                            Email : <input type="email" name="email"> <br><br>
-                            Pilih Tipe Website :
-                            <select>
+                            <div class="form-group text-left">
+                             <label for="exampleFormControlInput1">Nama</label>
+                             <input type="text" class="form-control" id="exampleFormControlInput1" placeholder="Nama lengkap anda">
+                           </div>
+                           <div class="form-group text-left">
+                            <label for="exampleFormControlInput1">Nomor Handphone</label>
+                            <input type="number" class="form-control" id="exampleFormControlInput1" placeholder="08123456789">
+                           </div>
+                           <div class="form-group text-left">
+                            <label for="exampleFormControlInput1">Email</label>
+                            <input type="text" class="form-control" id="exampleFormControlInput1" placeholder="nama@example.com">
+                           </div>
+                           <div class="form-group text-left">
+                            <label for="exampleFormControlSelect1">Pilih Tipe Website</label>
+                            <select class="form-control" id="exampleFormControlSelect1">
                               <option value="porto">Portfolio Standart</option>
                               <option value="blog">Blog Standart</option>
                               <option value="custom">Custom</option>
-                            </select> <br><br>
-                            Nama Domain : <input type="text" name="domain"> (.)
-                            <select>
-                              <option value="com">com</option>
-                              <option value="id">id</option>
-                            </select> <br><br>
-                            Upload Scan KTP:
+                            </select>
+                          </div>
+                          <div class="form-group text-left">
+                           <label for="exampleFormControlInput1">Nama Domain</label>
+                           <input type="text" class="form-control" id="exampleFormControlInput1" placeholder="Nama Domain">
+                            <small id="domainHelp" class="form-text text-muted">Untuk sementara anda hanya bisa menggunakan domain .com dan .id</small>
+                          </div>
+                          <div class="form-group text-left">
+                            <label for="exampleFormControlFile1">Upload Scan KTP</label>
                             <input type="file" name="pic" accept="image/*">
-                            <div class="container text-center">
-                              <a href="<?php echo base_url('konfirmasi')?>" class="dark-btn">
-                                  <span>Pesan</span>
-                              </a>
-                            </div>
-                          </form>
+                          </div>
 
+                         </form>
+                         <a href="<?php echo base_url('konfirmasi')?>" class="dark-btn">
+                             <span>Pesan</span>
+                         </a>
                         </div>
               	  	  </div>
               	    </div>
