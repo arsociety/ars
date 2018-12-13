@@ -162,7 +162,7 @@
             <div class="container">
                 <div class="row features">
                     <div class="section-title">
-                        <div class="subtitle">Services</div>
+                        <div class="subtitle">Our Services</div>
                         <h2>Our <span class="gradient-text">Services</span></h2>
                     </div>
                     <hr class="hr-title-01 hr-icon">
