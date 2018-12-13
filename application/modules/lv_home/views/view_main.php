@@ -162,7 +162,7 @@
             <div class="container">
                 <div class="row features">
                     <div class="section-title">
-                        <div class="subtitle">AR Society</div>
+                        <div class="subtitle">Services</div>
                         <h2>Our <span class="gradient-text">Services</span></h2>
                     </div>
                     <hr class="hr-title-01 hr-icon">
@@ -292,7 +292,7 @@
             <div class="container">
                 <div class="row">
                     <div class="section-title">
-                        <div class="subtitle">AR Society</div>
+                        <div class="subtitle">Harga Pembuatan Website</div>
                         <h2>Harga <span class="gradient-text">Pembuatan Website</span></h2>
                     </div>
                     <hr class="hr-title-01 hr-icon">
@@ -432,7 +432,7 @@
             <div class="container">
                 <div class="row">
                     <div class="section-title">
-                        <div class="subtitle">AR Society</div>
+                        <div class="subtitle">Team</div>
                         <h2><span class="gradient-text">Team</span></h2>
                     </div>
                     <hr class="hr-title-01 hr-icon">
@@ -518,7 +518,7 @@
             <div class="container">
                 <div class="row">
                     <div class="section-title">
-                        <div class="subtitle">AR Society</div>
+                        <div class="subtitle">Contact Us</div>
                         <h2>Contact<span class="gradient-text"> Us</span></h2>
                     </div>
                     <hr class="hr-title-01 hr-icon">
