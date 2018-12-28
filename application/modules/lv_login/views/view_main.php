@@ -48,7 +48,7 @@
             <div class="brand">
               <img class="brand-img" width="75" height="75" src="<?php echo base_url('public/home/assets/images/logo-ars.png')?>" alt="...">
             </div>
-            <form method="post" action="#" autocomplete="off">
+            <form method="post" action="<?php echo site_url('login/process') ?>" autocomplete="off">
               <div class="form-group text-left">
                 <label class="control-label">Username</label>
                 <input type="text" class="form-control" name="username" autofocus="" required>
